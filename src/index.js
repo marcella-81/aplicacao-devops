@@ -7,7 +7,9 @@ app.get('/', (req, res) => {
 
 const data = {
   integrantes: [
-    { nome: 'Marcella Cagliari'},    { nome: 'Paula Haas'},  ]
+    { nome: 'Marcella Cagliari' },
+    { nome: 'Paula Haas' }
+  ]
 }
 
 app.get('/integrantes', (req, res) => {
