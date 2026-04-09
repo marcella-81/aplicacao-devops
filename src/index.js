@@ -15,7 +15,7 @@ const data = {
 app.get('/integrantes', (req, res) => {
   res.json(data)
 })
-
+ main
 app.listen(3000, () => {
   console.log('Servidor rodando em http://localhost:3000')
 })
